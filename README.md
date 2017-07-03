@@ -2,7 +2,7 @@
 07-03-2017
 
 Details and assumption:
-1 .I ceated a class dataSet to store all necessary date of a batch of a data. 
+1. I ceated a class dataSet to store all necessary date of a batch of a data. 
 2. Different data batch would stays in different dataSet object. The object is store in python register so the access time is constant, O(1)
 3. Within every object, there are 5 attributes, 4 dictionaies and 1 variable. Accessing dictionary (HashMap) in python take constant time, O(1)
 4. Even though AvgExpenditurePerVisit and AvgWeeklyVisit are not required for this challenge, I still built the function for them for the sake of thier importance.
