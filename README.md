@@ -7,6 +7,7 @@ Details:
 3. Within every dataSet object, there are 5 attributes, 4 dictionaies and 1 variable. Accessing dictionary (HashMap) in python take constant time, O(1)
 4. Even though AvgExpenditurePerVisit and AvgWeeklyVisit are not required for this challenge, I still built the function for them for the sake of thier importance and convenience 
 5. Assumption: The overall size of events does not exceed python runtime memory limit
+6. Future improvement: I have add little error handler in this version. I use if-else to handle most of the case and leave all of the basic error to default error handler. Future version may include different error handler to cope with missing data or oversized data 
 
 
 
